@@ -1,0 +1,79 @@
+@font-face {
+    font-family: ;
+    src: url();
+}
+.container{
+    background-color: #54c3ef;
+    padding: 0px auto;
+   
+    
+}
+.f_heading{
+    color: #fad744;
+    font-family: Caveat Brush ;
+    text-align: center;
+    padding-top:20px;
+    font-size: 48px;
+}
+.para{
+    font-weight: bold;
+}
+.form_div{
+    background-color: #2b3252;
+    color: #fad744;
+    width:50%;
+    padding:  16px;
+    margin-left: 120px;
+     font-family:   Source Sans Pro;
+    
+}
+.main_form_div{
+    display: flex;
+    justify-content: center;
+}
+.score_div{
+    width:100px;
+    height:150px;
+    position: sticky;
+    top :100px;
+    background-color:white;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 20px;
+    
+}
+#score_heading{
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.f_btn{
+    background-color: #fad744;
+    font-size: 16px;
+    color: #2b3252;
+    border:none;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 50px 270px 10px;
+    cursor: pointer;
+}
+.f_btn :hover{
+    cursor: pointer;
+}
+.radio_div{
+    display: flex;
+    flex-direction: column;
+}
+.option_div{
+    display: inline-table;
+    margin: 10px;
+}
+.radio_btn{
+    width: 16px;
+    height: 16px;
+    border: none;
+    border-radius:8px;
+    margin-right: 10px;
+
+}
